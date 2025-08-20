@@ -28,10 +28,20 @@ Step 5: Compute residuals (actual − predicted) and visualize them to assess mo
 
 Residuals vs Temperature → Checks if errors are randomly distributed.
 
-Histogram of Residuals → Checks for normal distribution of errors.
-
 ✅ Results
 
 The model predicts ~578 cold drinks sold at 40°C.
 
 Residual analysis helps evaluate whether linear regression is a good fit or if more complex models.
+
+<img width="560" height="413" alt="image" src="https://github.com/user-attachments/assets/f770843b-8008-4543-bb7d-b5049fa09ede" />
+
+The scatter plot shows the relationship between temperature (°C) and cold drink sales.
+
+Blue dots represent the actual sales data collected at different temperatures.
+
+The red line is the regression line obtained from training a simple linear regression model, which estimates the general trend of sales with temperature.
+
+The green "X" marker highlights the model’s prediction of sales at 40°C, which in this case is approximately 578 units.
+
+
